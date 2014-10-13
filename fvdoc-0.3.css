@@ -1,0 +1,177 @@
+/**
+* wireframe tweaks
+**/
+.header a, .footer a { 	color: whitesmoke; }
+.nav>li>a:hover, .nav>li>a:focus { color: #333; }
+.header, .footer { 	background-color: #428bca; }
+
+.footer { 	margin-top: 90px; margin-bottom: 0;  }
+.footer span { text-align: center; }
+.footer span img { vertical-align: baseline; }
+
+.intro { margin-bottom: 60px;}
+.ng-scope .intro { margin-top: 60px; }
+
+/**
+* logo as text
+**/
+.logo h1 {
+    font-family:  georgia,serif;
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #00285f;
+    position: relative;
+}
+.logo h1 img {
+    position: relative;
+    z-index: -1;
+    left: -62px;
+    top: 7px;
+    margin-right: -66px;
+}
+.logo h3 {
+    margin-top: -28px;
+    margin-bottom: 30px;
+    font-weight: bold;  color: #00285f;
+}
+/**
+* result listing
+**/
+.ng-scope .row {
+	margin-bottom: 20px;
+	border-bottom: 2px solid #eee;
+	padding-bottom: 10px;
+}
+
+.resultsWrap ul {
+	list-style-type: none;
+	margin: 0;
+	-webkit-padding-start: 0;
+}
+
+.resultsWrap li {
+	margin: 12px 0;
+}
+
+.resultList li {
+	float: left;
+	width: 18%;
+	margin: 1%;
+}
+
+.resultList .btn {
+	white-space: normal;
+	min-height: 55px;
+}
+
+.caseList li {
+	float: left;
+	margin: 10px;
+}
+
+.pageWrap img {
+	width: 100%;
+	margin-top: -50px;
+	margin-left: -50px;
+}
+
+.fullImg .pageWrap img { 
+	margin-top: 0px;
+	margin-left: 0px; 
+} 
+
+.pageImg {
+	width: 100%;
+	overflow: hidden;
+}
+
+/** 
+*  form styles
+*/
+.fullSearch { width: 59%;}
+
+.api_search_form #q { 	width: 60%; }
+
+
+/**
+* buttons, oh buttons
+**/
+.buttonRows li {
+	float: left;
+	margin: 10px;
+}
+.buttonRows ul {
+	list-style: none;
+	-webkit-padding-start: 0px;
+}
+
+.buttonRows p {
+	clear: both;
+}
+
+.services .btn {
+	height: 90px;
+	vertical-align: middle;
+}
+
+/**
+* county icons sprite for buttons
+**/
+.smallicons {
+	background-image: url('http://static.fvn.no/img/logo/kommunevapen.png');
+	background-repeat: no-repeat;
+	padding-left: 40px;
+	background-position: 5px  100px;
+}
+
+.c1026 { background-position: 5px   0px;  }
+.c1027 { background-position: 5px -50px; 	}
+.c1003 { background-position: 5px -100px; }
+.c1004 { background-position: 5px -150px; }
+.c1034 { background-position: 5px -200px; }
+.c1001 { background-position: 5px -254px; }
+.c1037 { background-position: 5px -300px; }
+.c1029 { background-position: 5px -350px; }
+.c1032 { background-position: 5px -400px; }
+.c1002 { background-position: 5px -450px; }
+.c1021 { background-position: 5px -500px; }
+.c1046 { background-position: 5px -550px; }
+.c1070 { background-position: 5px -600px; }
+.c1018 { background-position: 5px -650px; }
+.c1014 { background-position: 5px -700px; }
+.c929 {  background-position: 5px -750px; }
+.c906 {  background-position: 5px -800px; }
+.c928 {  background-position: 5px -850px; }
+.c938 {  background-position: 5px -900px; }
+.c941 {  background-position: 5px -950px; }
+.c937 {  background-position: 5px -1000px; }
+.c919 {  background-position: 5px -1050px; }
+.c911 {  background-position: 5px -1100px; }
+.c904 {  background-position: 5px -1150px; }
+.c935 {  background-position: 5px -1200px; }
+.c926 {  background-position: 5px -1250px; }
+.c901 {  background-position: 5px -1300px; }
+.c902 {  background-position: 5px -1350px; }
+.c940 {  background-position: 5px -1400px; }
+.c912 {  background-position: 5px -1450px; }
+
+
+/**
+* university page addons
+**/
+.uniList img {
+  width: 45px;
+}
+
+.uniList li:nth-child(1) img {
+	width: 0;
+}
+
+/**
+* sshf adjust
+**/
+.intro .col-sm-4 img {
+	width: 100%;
+	margin-top: 15%;
+}
